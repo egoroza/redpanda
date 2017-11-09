@@ -1,0 +1,121 @@
+body{
+	font-family: 'Dosis', sans-serif;
+	font-weight: none;
+	font-size:25px;
+	text-align:center;
+	color:#2A2A2A;
+	background-color:#DA8888;
+}
+.header{
+	font-family: 'Fredoka One', cursive;
+	font-size: 102px;	
+	font-weight:bold;
+	color: #671C0C;
+	letter-spacing:-2px;
+	margin:20px;
+	text-align:center;
+}
+a:active, a:link, a:visited{
+	text-decoration: none;
+	color:#9F1F03;
+}
+a:hover{
+	color: #EEEEEE;
+ 	-o-transition:.5s;
+	-ms-transition:.5s;
+ 	-moz-transition:.5s;
+ 	-webkit-transition:.5s;
+ 	transition:.5s;
+}
+input[type=text] {
+	border-radius: 25px;
+ 	margin: 5px;
+ 	width: 190px;
+ 	height:30px;
+ 	border: none;
+ 	font-family: 'Dosis', sans-serif;
+ 	font-size:15px;
+}
+input[type=password] {
+	border-radius: 25px;
+ 	margin: 5px;
+ 	width: 190px;
+ 	height:30px;
+ 	border: none;
+ 	font-family: 'Dosis', sans-serif;
+ 	font-size:15px;
+}
+input[type=submit]{
+	border-radius: 25px;
+ 	width:125px;
+ 	height:50px;
+ 	border:none;
+	font-family: 'Dosis', sans-serif;
+ 	font-size:15px;
+	background-color:#B83A3A;
+ 	color:#FFFFFF;
+}
+input[type=submit]:hover{
+ 	color:#3B0F0F;
+ 	-o-transition:.5s;
+	-ms-transition:.5s;
+ 	-moz-transition:.5s;
+ 	-webkit-transition:.5s;
+ 	transition:.5s;
+ 	font-size:20px;
+}
+
+.modalDialog{
+	position: fixed;
+	font-size:18px;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	z-index: 99999;
+	opacity:0;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	pointer-events: none;
+}
+.modalDialog:target {
+	opacity:1;
+	pointer-events: auto;
+}
+
+.modalDialog > div {
+	width: 400px;
+	position: relative;
+	margin: 10% auto;
+	padding: 5px 20px 13px 20px;
+	border-radius: 10px;
+	background: #441313;
+	color: #FFF;
+}
+.close {
+	background: #606061;
+	color: #FFFFFF;
+	line-height: 25px;
+	position: absolute;
+	right: -12px;
+	text-align: center;
+	top: -10px;
+	width: 24px;
+	text-decoration: none;
+	font-weight: bold;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+	-moz-box-shadow: 1px 1px 3px #000;
+	-webkit-box-shadow: 1px 1px 3px #000;
+	box-shadow: 1px 1px 3px #000;
+}
+
+.close:hover { background: #00d9ff; }
+
+h2{
+	margin:0px;
+	padding:0px;
+}

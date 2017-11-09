@@ -1,0 +1,80 @@
+body{
+	background:#F9FCD1;
+	font-family: 'Varela Round', sans-serif;
+	font-size:15px;
+}
+a.nava:link, a.nava:visited, a.nava:active{
+	display: block;
+	color: #FFFFFF;
+	text-decoration: none;
+	text-align:center;
+	padding:15px;
+}
+a.nava:hover{
+	background:#FFB900;
+}
+.nav{
+	background:#FFCE4A;
+	position:fixed;
+	top:0px;
+	left:0px;
+	width:20%;
+	height:100%;
+}
+.content{
+	position:absolute;
+	overflow:visible;
+	left:20%;
+	padding:5px;
+	width:75%;
+	height:100%;
+}
+h1{
+	margin:0px;
+	color:#982626;
+}
+h2{
+	font-size:18px;
+	margin:0px;
+}
+input[type=text] {
+	border-radius: 25px;
+ 	margin: 5px;
+ 	width: 190px;
+ 	height:30px;
+ 	border: none;
+ 	font-family: 'Dosis', sans-serif;
+ 	font-size:15px;
+}
+input[type=password] {
+	border-radius: 25px;
+ 	margin: 5px;
+ 	width: 190px;
+ 	height:30px;
+ 	border: none;
+ 	font-family: 'Dosis', sans-serif;
+ 	font-size:15px;
+}
+input[type=submit]{
+	font-family: 'Varela Round', sans-serif;
+	font-size: 15px;
+	border:none;
+	background:#DA9292;
+	padding:10px;
+	border-radius:25px;
+	color:#8B0C0C;
+	transition:.5s;
+}
+input[type=submit]:hover{
+	font-weight:bold;
+	font-size:18px;
+}
+textarea{
+	border:none;
+	width:95%;
+	height:75px;
+	padding:15px;
+	font-family:Georgia;
+	font-size:20px;
+	border-radius:25px;
+}

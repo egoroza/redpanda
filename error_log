@@ -1,0 +1,62 @@
+[08-Jul-2016 09:55:30 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home2/egoroza/public_html/redpanda/index.php:95) in /home2/egoroza/public_html/redpanda/inc/header.inc.php on line 2
+[08-Jul-2016 09:57:33 America/Chicago] PHP Warning:  mail(): Multiple or malformed newlines found in additional_header in /home2/egoroza/public_html/redpanda/index.php on line 69
+[08-Jul-2016 10:00:14 America/Chicago] PHP Fatal error:  Call to undefined function session_register() in /home2/egoroza/public_html/redpanda/login.php on line 21
+[08-Jul-2016 10:03:16 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/egoroza/public_html/redpanda/index.php:95) in /home2/egoroza/public_html/redpanda/login.php on line 25
+[08-Jul-2016 10:04:42 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/egoroza/public_html/redpanda/index.php:95) in /home2/egoroza/public_html/redpanda/login.php on line 22
+[08-Jul-2016 10:06:49 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/egoroza/public_html/redpanda/index.php:99) in /home2/egoroza/public_html/redpanda/login.php on line 22
+[08-Jul-2016 10:09:12 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home2/egoroza/public_html/redpanda/index.php:99) in /home2/egoroza/public_html/redpanda/inc/header.inc.php on line 2
+[08-Jul-2016 10:09:59 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/egoroza/public_html/redpanda/index.php:99) in /home2/egoroza/public_html/redpanda/login.php on line 22
+[08-Jul-2016 10:12:38 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/egoroza/public_html/redpanda/index.php:99) in /home2/egoroza/public_html/redpanda/login.php on line 22
+[08-Jul-2016 10:12:38 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/egoroza/public_html/redpanda/index.php:99) in /home2/egoroza/public_html/redpanda/login.php on line 35
+[08-Jul-2016 10:14:16 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/egoroza/public_html/redpanda/index.php:99) in /home2/egoroza/public_html/redpanda/login.php on line 22
+[08-Jul-2016 10:25:53 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/egoroza/public_html/redpanda/index.php:99) in /home2/egoroza/public_html/redpanda/login.php on line 22
+[08-Jul-2016 10:53:55 America/Chicago] PHP Warning:  include(nav.php): failed to open stream: No such file or directory in /home2/egoroza/public_html/redpanda/home.php on line 23
+[08-Jul-2016 10:53:55 America/Chicago] PHP Warning:  include(nav.php): failed to open stream: No such file or directory in /home2/egoroza/public_html/redpanda/home.php on line 23
+[08-Jul-2016 10:53:55 America/Chicago] PHP Warning:  include(): Failed opening 'nav.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home2/egoroza/public_html/redpanda/home.php on line 23
+[08-Jul-2016 11:05:16 America/Chicago] PHP Warning:  Illegal string offset '$userid' in /home2/egoroza/public_html/redpanda/home.php on line 13
+[08-Jul-2016 11:15:17 America/Chicago] PHP Warning:  mail(): Multiple or malformed newlines found in additional_header in /home2/egoroza/public_html/redpanda/index.php on line 73
+[08-Jul-2016 11:28:22 America/Chicago] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home2/egoroza/public_html/redpanda/index.php on line 62
+[08-Jul-2016 11:29:08 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home2/egoroza/public_html/redpanda/index.php on line 59
+[08-Jul-2016 11:43:50 America/Chicago] PHP Parse error:  syntax error, unexpected 'http' (T_STRING) in /home2/egoroza/public_html/redpanda/index.php on line 59
+[08-Jul-2016 11:45:54 America/Chicago] PHP Parse error:  syntax error, unexpected ''http://redpanda.cuteaspixels.' (T_CONSTANT_ENCAPSED_STRING) in /home2/egoroza/public_html/redpanda/index.php on line 59
+[08-Jul-2016 11:45:57 America/Chicago] PHP Parse error:  syntax error, unexpected ''http://redpanda.cuteaspixels.' (T_CONSTANT_ENCAPSED_STRING) in /home2/egoroza/public_html/redpanda/index.php on line 59
+[08-Jul-2016 11:52:29 America/Chicago] PHP Warning:  include(.inc/config.inc.php): failed to open stream: No such file or directory in /home2/egoroza/public_html/redpanda/verify.php on line 2
+[08-Jul-2016 11:52:29 America/Chicago] PHP Warning:  include(.inc/config.inc.php): failed to open stream: No such file or directory in /home2/egoroza/public_html/redpanda/verify.php on line 2
+[08-Jul-2016 11:52:29 America/Chicago] PHP Warning:  include(): Failed opening '.inc/config.inc.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home2/egoroza/public_html/redpanda/verify.php on line 2
+[08-Jul-2016 11:52:29 America/Chicago] PHP Warning:  mysqli_escape_string() expects exactly 2 parameters, 1 given in /home2/egoroza/public_html/redpanda/verify.php on line 5
+[08-Jul-2016 11:52:29 America/Chicago] PHP Warning:  mysqli_escape_string() expects exactly 2 parameters, 1 given in /home2/egoroza/public_html/redpanda/verify.php on line 6
+[08-Jul-2016 11:52:29 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home2/egoroza/public_html/redpanda/verify.php on line 8
+[08-Jul-2016 11:53:10 America/Chicago] PHP Warning:  include(.inc/connect.inc.php): failed to open stream: No such file or directory in /home2/egoroza/public_html/redpanda/verify.php on line 2
+[08-Jul-2016 11:53:10 America/Chicago] PHP Warning:  include(.inc/connect.inc.php): failed to open stream: No such file or directory in /home2/egoroza/public_html/redpanda/verify.php on line 2
+[08-Jul-2016 11:53:10 America/Chicago] PHP Warning:  include(): Failed opening '.inc/connect.inc.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home2/egoroza/public_html/redpanda/verify.php on line 2
+[08-Jul-2016 11:53:10 America/Chicago] PHP Warning:  mysqli_escape_string() expects exactly 2 parameters, 1 given in /home2/egoroza/public_html/redpanda/verify.php on line 5
+[08-Jul-2016 11:53:10 America/Chicago] PHP Warning:  mysqli_escape_string() expects exactly 2 parameters, 1 given in /home2/egoroza/public_html/redpanda/verify.php on line 6
+[08-Jul-2016 11:53:10 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home2/egoroza/public_html/redpanda/verify.php on line 8
+[08-Jul-2016 11:54:00 America/Chicago] PHP Warning:  mysqli_escape_string() expects exactly 2 parameters, 1 given in /home2/egoroza/public_html/redpanda/verify.php on line 5
+[08-Jul-2016 11:54:00 America/Chicago] PHP Warning:  mysqli_escape_string() expects exactly 2 parameters, 1 given in /home2/egoroza/public_html/redpanda/verify.php on line 6
+[08-Jul-2016 14:12:35 America/Chicago] PHP Parse error:  syntax error, unexpected '$lastname' (T_VARIABLE), expecting ',' or ';' in /home2/egoroza/public_html/redpanda/home.php on line 50
+[08-Jul-2016 15:07:03 America/Chicago] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home2/egoroza/public_html/redpanda/send_post.php on line 20
+[08-Jul-2016 15:07:45 America/Chicago] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home2/egoroza/public_html/redpanda/send_post.php on line 20
+[08-Jul-2016 15:21:03 America/Chicago] PHP Parse error:  syntax error, unexpected '@' in /home2/egoroza/public_html/redpanda/send_post.php on line 5
+[09-Jul-2016 12:39:49 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects exactly 1 parameter, 2 given in /home2/egoroza/public_html/redpanda/user_posts.php on line 5
+[09-Jul-2016 12:40:25 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home2/egoroza/public_html/redpanda/user_posts.php on line 5
+[09-Jul-2016 12:40:59 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home2/egoroza/public_html/redpanda/user_posts.php on line 5
+[09-Jul-2016 12:44:01 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home2/egoroza/public_html/redpanda/user_posts.php on line 5
+[09-Jul-2016 12:45:21 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home2/egoroza/public_html/redpanda/user_posts.php on line 5
+[09-Jul-2016 12:47:44 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home2/egoroza/public_html/redpanda/user_posts.php on line 6
+[09-Jul-2016 12:49:25 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home2/egoroza/public_html/redpanda/user_posts.php on line 5
+[09-Jul-2016 12:49:31 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home2/egoroza/public_html/redpanda/user_posts.php on line 5
+[09-Jul-2016 12:49:48 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home2/egoroza/public_html/redpanda/user_posts.php on line 5
+[09-Jul-2016 12:50:12 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home2/egoroza/public_html/redpanda/user_posts.php on line 5
+[09-Jul-2016 12:50:36 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home2/egoroza/public_html/redpanda/user_posts.php on line 5
+[09-Jul-2016 12:50:50 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home2/egoroza/public_html/redpanda/user_posts.php on line 6
+[10-Jul-2016 06:37:53 America/Chicago] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[10-Jul-2016 11:40:51 America/Chicago] PHP Parse error:  syntax error, unexpected '$msg' (T_VARIABLE) in /home2/egoroza/public_html/redpanda/send_post.php on line 17
+[10-Jul-2016 11:50:01 America/Chicago] PHP Parse error:  syntax error, unexpected '>' in /home2/egoroza/public_html/redpanda/profile.php on line 27
+[12-Jul-2016 14:31:21 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home2/egoroza/public_html/redpanda/profile.php on line 31
+[12-Jul-2016 14:35:09 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home2/egoroza/public_html/redpanda/home.php on line 7
+[12-Jul-2016 14:35:09 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home2/egoroza/public_html/redpanda/home.php on line 8
+[12-Jul-2016 14:35:09 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home2/egoroza/public_html/redpanda/home.php:3) in /home2/egoroza/public_html/redpanda/session.php on line 3
+[12-Jul-2016 14:44:22 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home2/egoroza/public_html/redpanda/session.php on line 28
+[12-Jul-2016 14:49:49 America/Chicago] PHP Parse error:  syntax error, unexpected '$joined' (T_VARIABLE), expecting ',' or ';' in /home2/egoroza/public_html/redpanda/profile.php on line 36
+[12-Jul-2016 15:23:11 America/Chicago] PHP Parse error:  syntax error, unexpected '$' in /home2/egoroza/public_html/redpanda/account_settings.php on line 27
